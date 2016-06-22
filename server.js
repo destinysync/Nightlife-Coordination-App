@@ -14,7 +14,7 @@ app.use(cookieParser());
 require('dotenv').load();
 require('./app/config/passport')(passport);
 
-mongoose.connect("mongodb://localhost:27017/clementinejs");
+mongoose.connect("mongodb://admin:admin2020@ds015720.mlab.com:15720/heroku_8mmg8q9c");
 // mongoose.connection.on('open', function(){
 //     mongoose.connection.db.dropDatabase(function(err){
 //     console.log(err);
