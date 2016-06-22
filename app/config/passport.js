@@ -55,7 +55,7 @@ module.exports = function (passport) {
 	passport.use(new TwitterStrategy({
 			consumerKey: "SDiTmlCZyeZ5g40EqHx8rY3d2",
 			consumerSecret: "Vkt41njeZHUOQyJ2OUC5nFuaalZfvbzdQA1mSWjuCfm3BDW4Lf",
-			callbackURL: "https://nightlife-coordination-app-destinysync.c9users.io/auth/twitter/callback"
+			callbackURL: "https://nightlife-coordinate.herokuapp.com/auth/twitter/callback"
 		},
 		function (token, refreshToken, profile, done) {
 			process.nextTick(function () {
