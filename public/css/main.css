@@ -1,0 +1,88 @@
+body {
+    padding: 30px;
+    background-color: rgb(34, 36, 57);
+}
+
+.navbar {
+    margin: 30px 60px 60px 60px;
+    border-radius: 4px;
+}
+/*.form-horizontal {*/
+    /*margin-top: 30px;*/
+/*}*/
+
+.barImg {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.barNameAndGoingContainer {
+    padding-top: 3%;
+}
+
+.imgDiv {
+}
+
+.barName {
+    font-size: 15px;
+}
+
+.barRating {
+    margin: 10px 0 10px 0;
+}
+
+
+.barSnippetText {
+    float: right;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Luckiest Guy", cursive
+}
+
+.title-part1 {
+    color: rgb(225, 73, 47);
+}
+
+.title-part2 {
+    color: rgb(28, 187, 155);
+}
+
+.title-des {
+    color: rgb(43, 166, 203);
+}
+
+input {
+    width: 100%;
+}
+
+.searchResult {
+    margin-top: 70px;
+    color: white;
+}
+
+.going {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
