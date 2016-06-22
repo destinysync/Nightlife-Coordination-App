@@ -11,7 +11,6 @@ var bodyParser = require('body-parser');
 
 var app = express();
 app.use(cookieParser());
-require('dotenv').load();
 require('./app/config/passport')(passport);
 
 mongoose.connect("mongodb://admin:admin2020@ds015720.mlab.com:15720/heroku_8mmg8q9c");
